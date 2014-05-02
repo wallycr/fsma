@@ -1,0 +1,25 @@
+@import "fonts";
+body {
+  /*background: url('/images/branding/mainbg.jpg') repeat-x;*/
+}
+.logo-header {
+  margin: .4em 0;
+  #logo {
+    float: left;
+  }
+  .headings {
+    margin: 1em auto 0;
+    width: 85%;
+    font-family: 'Bevan', cursive;
+    font-size: 3em;
+    text-align: center;
+    text-shadow:  4px 4px 4px rgba(42, 46, 42, 0.85);
+    color: #5d5d5d;
+    line-height: .8em;
+    span {
+      font-size: .4em;
+      text-shadow: none;
+      color: #000000;
+    }
+  }
+}
